@@ -12,20 +12,19 @@
 
 <body>
 
-    <div class="container ms-2 mt-5">
+    <div class="container ms-2 ">
         <div class="col">
             <div class="col-md-4">
                 <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
-                    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-                        <svg class="bi me-2" width="30" height="24">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                        <div><a href="/language/it">Italian</a> | <a href="/language/en">English</a> | <a
-                                href="/language/es">Spanish</a> |
-                            <a href="/language/de">German</a> | <a href="/language/fr">French</a> | <a
-                                href="/language/ru">Russian</a>
-                        </div>
-                        <span class="fs-5 fw-semibold">Categories</span>
+                    <svg class="bi me-2" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                    <div><a href="/language/it">Italian</a> | <a href="/language/en">English</a> | <a
+                            href="/language/es">Spanish</a> |
+                        <a href="/language/de">German</a> | <a href="/language/fr">French</a> | <a
+                            href="/language/ru">Russian</a>
+                    </div>
+                    <span class="fs-5 fw-semibold">Categories</span>
                     </a>
                     {{-- @php dd($nameAndCode, $categoriesFather, $categoriesChild);    @endphp --}}
 
