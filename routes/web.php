@@ -16,7 +16,7 @@ use App\Http\Controllers\Api\CategoriesController;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Api\CategoriesController::class, '__construct']);
+Route::get('/', [App\Http\Controllers\Api\CategoriesController::class, 'principale']);
 Route::get('/{code}', [App\Http\Controllers\Api\CategoriesController::class, 'GetProducts']);
 Route::get('/colorSelected/{colorSelected}', [App\Http\Controllers\Api\CategoriesController::class, 'showItemSelect']);
-Route::get('/language/{lang}', [App\Http\Controllers\Api\CategoriesController::class, '__construct']);
+Route::get('/language/{lang}', [App\Http\Controllers\Api\CategoriesController::class, 'principale']);

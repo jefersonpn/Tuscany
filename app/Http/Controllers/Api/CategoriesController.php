@@ -11,15 +11,10 @@ use Illuminate\Support\Facades\Http;
 
 class CategoriesController extends Controller
 {
-   
-    public function __construct($lang= null)
+    public function principale($lang= null)
     {
-        session()->put('language', $lang); 
-        return $this->principale();
-    }
+        session()->put('language', $lang);
 
-    public function principale()
-    {
         $categories= $this->GetParentCategory();
         $categoriesFather= ($categories['categoriesFather']);
         $categoriesChild= ($categories['categoriesChild']);
